@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let googleClient;
 
-// Load the Google Identity Services library and initialize the client
+// Load the Google Identity Services library.
 function loadClient() {
     googleClient = google.accounts.oauth2.initTokenClient({
         client_id: '216896125625-4bcvapmoc9suk7ls1tm5ognkcvmbnp9g.apps.googleusercontent.com',
