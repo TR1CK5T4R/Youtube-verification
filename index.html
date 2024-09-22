@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Private Route System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#" id="homeLink">Home</a></li>
+            <li><a href="#" id="privateLink">Private Page</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div id="content">
+        <h1>Welcome to the Home Page</h1>
+        <p>This is the public home page. You can navigate to the private page if you are subscribed.</p>
+    </div>
+
+    <button onclick="handleAuthClick()">Sign in with Google</button>
+    <button onclick="handleSignoutClick()">Sign out</button>
+
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
